@@ -16,15 +16,12 @@ fieldset {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 15px 40px;
   position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
+  top: 0;   
+  left: 0;  
 }
 
 .nav-list {
-  list-style: none;
+  list-style: none; 
   display: flex;
   gap: 30px;
   margin: 0;
@@ -39,14 +36,13 @@ fieldset {
 
 .nav-link:hover {
   color: #357ab8;
-  transform: scale(1.05);
+  transform: scale(3.05);
 }
 
 .form-container {
-  margin-top: 120px;
-  margin-bottom: 80px;
+  margin-top: 100px;
+  margin-bottom: 70px;
   width: 60vh;
-  max-width: 700px; 
   padding: 30px 30px;
   background-color: #ffffff;
   border: 1px solid #e0e0e0;
@@ -59,20 +55,17 @@ fieldset {
   align-items: center;
 }
 
-
 .footer {
   background-color: #4a90e2;
   color: white;
   padding: 30px 20px;
   text-align: center;
   border-radius: 0; 
-  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-weight: 500;
   width: 100vw; 
   margin-top: auto;
 }
-
 
 .page-content {
   color: #357ab8;
@@ -86,17 +79,16 @@ fieldset {
   margin: 0 auto;
 }
 
-
 label {
   display: block;
-  margin-bottom: 6px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   font-weight: 600;
   font-size: 14px;
   color: #333;
 }
 
-input,
-select {
+input, select {
   width: 100%;
   padding: 12px;
   border: 1px solid #aaa;
@@ -110,7 +102,6 @@ select {
 
 input:hover,
 select:hover{
-  outline: none;
   border-color: #4a90e2;
   background-color: #dddddd;
 }

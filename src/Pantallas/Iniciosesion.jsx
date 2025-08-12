@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate  } from "react-router-dom";
 import Select_act from "../Formulario/Actividad";
 import Botones from "../Formulario/botones";
 import Inputs from "../Formulario/Inputs";
